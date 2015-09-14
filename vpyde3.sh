@@ -72,7 +72,7 @@ make
 sudo make install
 
 echo "\n${RED}Install wombat256 color scheme${NC}"
-wget -P ~/.vim/colors https://raw.githubusercontent.com/michalbachowski/vim-wombat256mod/master/colors/wombat256mod.vim
+wget -P ~/.vim/colors https://raw.githubusercontent.com/Lucidyan/vpyde3/master/data/wombat256mod.vim
 
 echo "\n${RED}Install requirement packages for vim's packages${NC}"
 sudo pip3 install pyflakes pep8 pylint
@@ -81,14 +81,10 @@ echo "\n${RED}Install package manager for Vim (Vundle)${NC}"
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 echo "\n${RED}Replace .vimrc with custom version from GitHub${NC}"
-wget -P ~/Downloads http://linux.cpms.ru/wp-content/uploads/2014/12/vimrc.tar.gz
-tar -xzvf ~/Downloads/vimrc.tar.gz && mv .vimrc ~/.vimrc
+wget -P ~/Downloads https://raw.githubusercontent.com/Lucidyan/vpyde3/master/data/.vimrc && mv .vimrc ~/.vimrc
 
 echo "\n${RED}Install packages with Bundle${NC}"
-vim +BundleInstall +qall # silent 2&> /dev/null
-
-# add to vimrc for fullscreen vim on start 
-# set term=xterm-256color
+vim +BundleInstall +qall
 
 echo "\n${GREEN}Voi-la! Run your VIM IDE For Python in console :) ${NC}"
 

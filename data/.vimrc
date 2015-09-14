@@ -328,6 +328,5 @@ endif
 endfunction
 nmap <silent> <C-c> :call ToggleSyntax()<CR>
 
-
-
-
+" Дополнительные настройки
+set term=xterm-256color

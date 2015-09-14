@@ -1,6 +1,6 @@
 ### About
 
-**vpyde** - The bash script for deployment for **Python 3** development in **Vim** for **Ubuntu**
+**vpyde** - The bash script for deployment for **Python 3** development in **Vim** for **Ubuntu**. </br> Based on [this](http://linux.cpms.ru/?p=8339) article.
 </br>
 
 ### Usage
@@ -47,3 +47,6 @@ Just copy and paste this into terminal :
 | **davidhalter/jedi-vim**     |  Jedi-vim autocomplete plugin    | 
 | **mitsuhiko/vim-jinja**  | Jinja support for vim     |  
 |**mitsuhiko/vim-python-combined**  | Combined Python 2/3 for Vim      |  
+
+* Thanks
+for inspiration

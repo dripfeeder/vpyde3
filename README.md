@@ -1,7 +1,11 @@
-## About
+### About
 
-**vpyde** - The bash script for deployment for **Python 3** development in **Vim**
+**vpyde** - The bash script for deployment for **Python 3** development in **Vim** for **Ubuntu**
 </br>
+
+### Usage
+Just copy and paste this into terminal :
+``` wget -P ~/Downloads https://raw.githubusercontent.com/Lucidyan/vpyde3/master/vpyde3.sh && sh ~/Downloads/vpyde3.sh```
 
 ### Installed Plugins:
 

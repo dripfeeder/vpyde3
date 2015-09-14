@@ -6,10 +6,9 @@
 ### Installed Plugins:
 
 
-Vim plugin manager
-**Vundle**
+* Vim plugin manager **Vundle**
 
-Code/project navigation
+* Code/project navigation
 
 | Plugin        | Function          | 
 | ------------- |:-------------:| 
@@ -17,7 +16,7 @@ Code/project navigation
 | **scrooloose/nerdcommenter**     | AutoComment     | 
 | **majutsushi/tagbar** | Class/module browser      |  
 
-Other
+* Other
 
 | Plugin        | Function          | 
 | ------------- |:-------------:| 
@@ -26,7 +25,7 @@ Other
 | **rosenfeld/conque-term**  | Consoles as buffers      |  
 |**tpope/vim-surround**  | Parentheses, brackets, quotes, XML tags, and more      |  
 
-Snippets support
+* Snippets support
 
 | Plugin        | Function          | 
 | ------------- |:-------------:| 
@@ -36,7 +35,7 @@ Snippets support
 |**honza/vim-snippets**  | snippets repo      |  
 
 
-Languages support (only Python3)
+* Languages support (only Python3)
 
 | Plugin        | Function          | 
 | ------------- |:-------------:| 

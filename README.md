@@ -1,29 +1,47 @@
-# vpyde3
+## About
 
-The bash script for deployment for Python development in Vim
+**vpyde** - The bash script for deployment for **Python 3** development in **Vim**
+</br>
 
-### Plugins usage:
+### Installed Plugins:
+
+
+##### Vim plugin manager
+**Vundle**
 
 ##### Code/project navigation
-Plugin 'scrooloose/nerdtree' 	    	" Project and file navigation
-Plugin 'scrooloose/nerdcommenter' 	" AutoComment
-Plugin 'majutsushi/tagbar'          	" Class/module browser
+
+| Plugin        | Function          | 
+| ------------- |:-------------:| 
+| **scrooloose/nerdtree**	       | Project and file navigation | 
+| **scrooloose/nerdcommenter**     | AutoComment     | 
+| **majutsushi/tagbar** | Class/module browser      |  
 
 ##### Other
-Plugin 'bling/vim-airline'   	    	" Lean & mean status/tabline for vim
-Plugin 'fisadev/FixedTaskList.vim'  	" Pending tasks list
-Plugin 'rosenfeld/conque-term'      	" Consoles as buffers
-Plugin 'tpope/vim-surround'	   	" Parentheses, brackets, quotes, XML tags, and more
+
+| Plugin        | Function          | 
+| ------------- |:-------------:| 
+| **bling/vim-airline**	       | Lean & mean status/tabline for vim | 
+| **fisadev/FixedTaskList.vim**     |  Pending tasks list     | 
+| **rosenfeld/conque-term**  | Consoles as buffers      |  
+|**tpope/vim-surround**  | Parentheses, brackets, quotes, XML tags, and more      |  
 
 ##### Snippets support
-Plugin 'garbas/vim-snipmate'		" Snippets manager
-Plugin 'MarcWeber/vim-addon-mw-utils'	" dependencies #1
-Plugin 'tomtom/tlib_vim'		" dependencies #2
-Plugin 'honza/vim-snippets'		" snippets repo
+
+| Plugin        | Function          | 
+| ------------- |:-------------:| 
+| **garbas/vim-snipmate**	       | Snippets manager | 
+| **MarcWeber/vim-addon-mw-utils**     |  dependencies #1    | 
+| **tomtom/tlib_vim**  | dependencies #2      |  
+|**honza/vim-snippets**  | snippets repo      |  
+
 
 ##### Languages support
 ######  Python 
-Plugin 'klen/python-mode'	        " Python mode (docs, refactor, lints, highlighting, run and ipdb and more)
-Plugin 'davidhalter/jedi-vim' 		" Jedi-vim autocomplete plugin
-Plugin 'mitsuhiko/vim-jinja'		" Jinja support for vim
-Plugin 'mitsuhiko/vim-python-combined'  " Combined Python 2/3 for Vim
+
+| Plugin        | Function          | 
+| ------------- |:-------------:| 
+| **klen/python-mode**	       | Python mode (docs, refactor, lints, highlighting, run and ipdb and more)| 
+| **davidhalter/jedi-vim**     |  Jedi-vim autocomplete plugin    | 
+| **mitsuhiko/vim-jinja**  | Jinja support for vim     |  
+|**mitsuhiko/vim-python-combined**  | Combined Python 2/3 for Vim      |  

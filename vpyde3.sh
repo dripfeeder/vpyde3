@@ -16,7 +16,7 @@ GREEN='\033[0;32m'
 NC='\033[0m'
 
 echo "\n${RED}Installing requirement packages${NC}"
-sudo apt-get -y purge vim vim-tiny
+sudo apt-get -y purge vim vim-*
 sudo apt-get -y install python3 python3-dev python3-pip python3-jedi libncurses5-dev tmux git 
 
 echo "\n${RED}Downloading Vim's sources from GitHub$(NC)"

@@ -33,7 +33,7 @@ BIT=$(getconf LONG_BIT);
 # Find Pythons configurating dir for current version (todo Anyone's know better way? :)
 VERSION="python"$(python3 --version | grep -oP "3(.|d)*$")
 LIB_DIR=$(whereis "$VERSION" | grep -oP "/usr/lib/(\w|\d|\.)*")"/"
-CONF_DIR=$(ls -d1 /usr/lib/python3.4/* | grep "config.*linux-gnu")
+CONF_DIR=$(ls -d1 /usr/lib/python3.5/* | grep "config.*linux-gnu")
 
 if [ "$BIT" = "64" ]
 then
@@ -49,7 +49,7 @@ then
 	--with-features=huge \
 	--enable-multibyte \
 	--with-x \
-	--with-python3-config-dir=$CONF_DIR # example for troubleshooting: --with-python3-config-dir=/usr/lib/python3.4/config-3.4m-x86_64-linux-gnu
+	--with-python3-config-dir=$CONF_DIR # example for troubleshooting: --with-python3-config-dir=/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu
 else
 # for 32-bit version 
 # todo check this conf 

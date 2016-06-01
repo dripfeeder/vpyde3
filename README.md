@@ -1,14 +1,21 @@
 ### About
 
-**vpyde** - The bash script for deployment for **Python 3** development in **Vim** for **Ubuntu**. </br> Based on [this](http://linux.cpms.ru/?p=8339) article.
+**vpyde** - The bash script for deployment for **Python 3** development in **Vim** for **Ubuntu** and **MacOSX**. </br> Based on [this](http://linux.cpms.ru/?p=8339) article.
 </br>
 
 ### Usage
 Just copy and paste this into terminal :
 ``` wget -P ~/Downloads https://raw.githubusercontent.com/Lucidyan/vpyde3/master/vpyde3.sh && sh ~/Downloads/vpyde3.sh```
 
-### Installed Plugins:
+For MacOSX brew needed
 
+
+### UWAGA
+* Please help us make it better with your BUGS/ISSUES reports
+Contributors, You're Very Much Welcome TOO!
+
+
+### Installed Plugins:
 
 * Vim plugin manager **Vundle**
 
@@ -48,5 +55,3 @@ Just copy and paste this into terminal :
 | **mitsuhiko/vim-jinja**  | Jinja support for vim     |  
 |**mitsuhiko/vim-python-combined**  | Combined Python 2/3 for Vim      |  
 
-* Thanks
-for inspiration
